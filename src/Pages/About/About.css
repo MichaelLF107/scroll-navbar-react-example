@@ -1,0 +1,22 @@
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
+
+.section {
+    width: 60%;
+    height: 100%;
+    color: hsl(211, 100%, 4%);
+    background-color: hsla(0, 0%, 90%, 0.7);
+    border-radius: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15vh;
+    padding: 5vh;
+    padding-top: 1vh;
+}
