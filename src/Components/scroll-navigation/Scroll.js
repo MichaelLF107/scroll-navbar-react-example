@@ -23,7 +23,7 @@ function ScrollNavbar({ sectionsArr }, ref) {
                 onClick = { () => scrollToSection(i) }
                 onKeyDown = { () => scrollToSection(i) }
                 aria-hidden = "true">
-                    <span className = "item-icon">{ section.Icon }</span>
+                    {section.Icon ? (<span className = "item-icon">{ section.Icon }</span>) : null}
                     <span>{ section.name }</span>
                 </div>
             ))}
